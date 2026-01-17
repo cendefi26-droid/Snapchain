@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main App Theme -->
+    <style name="Theme.Snapchain" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- App background -->
+        <item name="android:windowBackground">@color/appBg</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/headerGreen</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/appBg</item>
+
+        <!-- Disable default action bar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+</resources>
